@@ -1,0 +1,36 @@
+.row {
+  text-align: center;
+}
+
+.text-col {
+  margin: 20px;
+}
+
+.jewels {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jewel {
+  border: 1px solid green;
+  height: 250px;
+  width: 250px;
+}
+
+.col-4 {
+  padding: 20px 20px 50px 20px;
+  background-color: rgba(240, 151, 234, 0.79);
+}
+
+.navbar-text {
+  text-align: center;
+}
+
+/* .jewel-img {
+  box-shadow: 10px 10px 5px grey;
+} */
+
+.jewel-img:hover {
+  box-shadow: 10px 10px 5px grey;
+}
