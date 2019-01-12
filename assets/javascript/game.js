@@ -60,7 +60,7 @@ var startReset = function() {
 
       if (previousNum > randomNum) { //if player guess goes over the random number
 
-        $("#win-loss-text").html("You Lost!"); console.log("you lost");
+        $("#win-loss-alert").html("You Lost!"); console.log("you lost");
 
         totalLosses++; //add to losses
         previousNum = 0; //resets the previous number to zero on reset
@@ -69,7 +69,7 @@ var startReset = function() {
 
       } else if (previousNum === randomNum) { //if player guess equals the random number
 
-        $("#win-loss-text").html("You Won!"); console.log("you won");
+        $("#win-loss-alert").html("You Won!"); console.log("you won");
 
         totalWins++; //add to wins
         previousNum = 0; //resets the previous number to zero on reset

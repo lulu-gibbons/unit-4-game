@@ -9,59 +9,54 @@
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Vast+Shadow" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
 <body>
   <div class="container">
-    <div class="row justify-content-center text-col">
+    <div class="row justify-content-center">
       <div class="col-8">
-         <h1>Crystal Collector Game</h1>
+         <h1 class="header-text">Crystal Collector Game</h1>
       </div>
     </div>
   </div>
 
   <div class="container">
     <div class="row justify-content-center text-col">
-      <div class="col-4">
-        Number to match:
+      <div class="col-4 body-text">
+        Number To Match:
         <p id="random-number"></p>
       </div>
-      <div class="col-4">
-        Your total guess is:
+      <div class="col-4 body-text">
+        Your Total Guess:
         <p id="total-guess"></p>
       </div>
     </div>
-    <!-- <div class="row justify-content-center text-col jewels">
-      <div class="col-2 jewel-img">
-        <img id="jewel-one" src="assets/images/jewel1.png" alt="vector of a jewel" width="175px" height="175px">
-      </div>
-      <div class="col-2 jewel-img">
-        <img id="jewel-two" src="assets/images/jewel2.png" alt="vector of a jewel" width="175px" height="175px">
-      </div>
-      <div class="col-2 jewel-img">
-        <img id="jewel-three" src="assets/images/jewel3.png" alt="vector of a jewel" width="175px" height="175px">
-      </div>
-      <div class="col-2 jewel-img">
-        <img id="jewel-four" src="assets/images/jewel4.png" alt="vector of a jewel" width="175px" height="175px">
-      </div>
-    </div> -->
     <div class="jewels">
-
     </div>
-    <div class="row justify-content-center text-col">
+    <div class="row justify-content-center win-loss">
       <div class="col-8">
-        <p id="win-loss-text"></p>
+        <p id="win-loss-alert">Good Luck!</p>
       </div>
     </div>
-    <div class="row justify-content-center text-col">
-      <div class="col-4">
-        Number of wins:
-        <p id="wins"></p>
+    <div class="row justify-content-center text-col score-board">
+      <div class="col-4 body-text">
+        Number of Wins:
+        <p id="wins">0</p>
       </div>
-      <div class="col-4">
+      <div class="col-4 body-text">
         Number of Losses:
-        <p id="losses"></p>
+        <p id="losses">0</p>
+      </div>
+    </div>
+    <div class="row justify-content-center win-loss">
+      <div class="col-8">
+        <p id="win-loss-text">Click The Crystals To Play</p>
+        <p class="plain-text">
+          Each crystal has a random number assigned to it that will change with each round.<br />
+          Click on each crystal so that the <strong>Number To Match</strong> equals <strong>Your Total Guess</strong>.
+          </p>
       </div>
     </div>
   </div>

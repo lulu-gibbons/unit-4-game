@@ -1,36 +1,60 @@
+/* GOOGLE FONTS:
+font-family: 'Vast Shadow', cursive;
+font-family: 'Montserrat', sans-serif; */
+.header-text {
+  font-family: 'Vast Shadow', cursive;
+  margin-top: 20px;
+}
+
+.body-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+}
+
+.plain-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
 .row {
   text-align: center;
 }
 
 .text-col {
   margin: 20px;
+  background-color: rgba(0, 194, 255, 0.64);
+  padding: 20px 20px 10px 20px;
 }
+
 
 .jewels {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+  justify-content: space-around;
 }
 
 .jewel {
   border: 1px solid green;
-  height: 250px;
-  width: 250px;
-}
-
-.col-4 {
-  padding: 20px 20px 50px 20px;
-  background-color: rgba(240, 151, 234, 0.79);
+  height: 200px;
+  width: 200px;
 }
 
 .navbar-text {
   text-align: center;
 }
 
-/* .jewel-img {
+.jewel:hover {
   box-shadow: 10px 10px 5px grey;
-} */
+}
 
-.jewel-img:hover {
-  box-shadow: 10px 10px 5px grey;
+#wins, #total-guess, #losses, #random-number {
+  font-family: 'Vast Shadow', cursive;
+  font-size: 30px;
+}
+
+#win-loss-text, #win-loss-alert {
+  font-family: 'Vast Shadow', cursive;
+  font-size: 30px;
+  padding: 20px 0px 0px 0px;
 }
