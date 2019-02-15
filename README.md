@@ -13,3 +13,6 @@ The player must guess until the 'Total Guess' adds up to the 'Number To Match'.
 The game restarts whenever the player wins or loses.
 
 The app shows the number of games the player wins and loses. 
+
+### Link to the project:
+https://lulu-gibbons.github.io/unit-4-game/
